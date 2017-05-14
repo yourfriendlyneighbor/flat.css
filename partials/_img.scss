@@ -1,0 +1,19 @@
+.img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.img-circular{
+  border-radius: 6px
+}
+
+.img-circle{
+  border-radius: 50%
+}
+
+.img-thumbnail{
+  padding: 4px;
+  border: 1px solid $img-thumbnail-color;
+  border-radius: 4px;
+}

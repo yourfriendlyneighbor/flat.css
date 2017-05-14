@@ -1,0 +1,84 @@
+.btn {
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  cursor: pointer;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  width: 7%;
+  height: 30px
+}
+
+.btn-disabled{
+  cursor: not-allowed;
+  filter: alpha(opacity=65);
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  opacity: .65;
+}
+
+.btn-yellow{
+  background-color: $yellow
+}
+
+.btn-yellow:hover{
+  background-color: darken( $yellow, 10% )
+}
+
+.btn-red{
+  background-color: $red
+}
+
+.btn-red:hover{
+  background-color: darken( $red, 10% )
+}
+
+.btn-white{
+  background-color: $white
+}
+
+.btn-white:hover{
+  background-color: darken( $white, 10% )
+}
+
+.btn-darkblue{
+  background-color: $darkblue
+}
+
+.btn-darkblue:hover{
+  background-color: darken( $darkblue, 10% )
+}
+
+.btn-blue{
+  background-color: $blue
+}
+
+.btn-blue:hover{
+  background-color: darken( $blue, 10% )
+}
+
+.btn-olive{
+  background-color: $olive
+}
+
+.btn-olive:hover{
+  background-color: darken( $olive, 10% )
+}
+
+.btn-orange{
+  background-color: $orange
+}
+
+.btn-orange:hover{
+  background-color: darken( $orange, 10% )
+}
+
+.btn-black{
+  background-color: $black;
+  color: $white;
+}
+
+.btn-black:hover{
+  background-color: darken( $black, 10% )
+}

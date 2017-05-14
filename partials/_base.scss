@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+@import 'variables';
+@import 'container';
+@import 'buttons';
+@import 'hr';
+@import 'headings';
+@import 'img';
+
+// Init
+
+body{
+  font-family: $main_font, sans-serif;
+}
